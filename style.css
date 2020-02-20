@@ -128,7 +128,7 @@ button {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: transparent;
+  background: transparent;
   z-index: 500;
 }
 
@@ -139,22 +139,6 @@ button:hover{
 
 
 
-
-.independant {
-  display: flex;
-  position: absolute;
-  top: 45px;
-  left: 0px;
-  height:auto;
-  width: auto;
-  background: transparent;
-}
-
-.hamburger {
-  display: flex;
-  height: 30px;
-  width: auto;
-}
 
 
 .hidden {
