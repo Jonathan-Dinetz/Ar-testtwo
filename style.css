@@ -38,7 +38,7 @@ video {
 .close {
   z-index: 500;
   display: flex;
-  position: fixed;
+  position: absolute;
   top: 45px;
   left:0px;
   height:auto;
@@ -115,6 +115,7 @@ video {
 
 
 button {
+  display: flex;
   border-radius: 25px;
   width:25px;
   height: 25px;
@@ -134,8 +135,6 @@ button:hover{
 button.none {
   background: transparent;
   display: flex;
-  justify-content: center;
-  align-content: center;
   width: auto;
   height: auto;
   top: 55px;
@@ -145,7 +144,7 @@ button.none {
 
 .independant {
   display: flex;
-  position: fixed;
+  position: absolute;
   top: 45px;
   left: 0px;
   height:auto;
