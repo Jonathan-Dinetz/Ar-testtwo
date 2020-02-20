@@ -9,7 +9,7 @@ body {
     padding: 0;
     display: flex;
     z-index: -3;
-    background: #eeeeee;
+    background: black;
 }
 
 .myVideo {
@@ -67,7 +67,7 @@ video {
   justify-content: left;
   position: absolute;
   top:50vh;
-  left: 25px;
+  left: 20px;
   height: 100%;
   width: auto;
 }
@@ -124,7 +124,7 @@ button {
   height: 90px;
   position: fixed;
   top: 40px;
-  left: 30px;
+  left: 20px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -136,7 +136,20 @@ button:hover{
   color: grey;
 }
 
-
+.talk {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: absolute;
+  top:17vh;
+  margin: 20px;
+  height: 100%;
+  width: auto;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+}
 
 
 
