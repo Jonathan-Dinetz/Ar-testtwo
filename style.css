@@ -140,6 +140,7 @@ button.none {
   top: 55px;
   left:0px;
   font-size: 50px;
+  z-index: 500;
 }
 
 .independant {
