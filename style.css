@@ -40,7 +40,7 @@ video {
   display: flex;
   position: fixed;
   top: 45px;
-  left: 9vw;
+  left:50px;
   height:auto;
   width: auto;
   background: transparent;
@@ -67,8 +67,8 @@ video {
   flex-direction: column;
   justify-content: left;
   position: absolute;
-  margin-top:60vh;
-  margin-left: 8vw;
+  top:50vh;
+  left: 55px;
   height: 100%;
   width: auto;
 }
@@ -147,7 +147,7 @@ button.none {
   display: flex;
   position: fixed;
   top: 45px;
-  left: 9vw;
+  left:50px;
   height:auto;
   width: auto;
   background: transparent;
