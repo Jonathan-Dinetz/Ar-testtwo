@@ -114,32 +114,12 @@ video {
 
 button {
   display: flex;
-  top: 100px;
   font-family: sans-serif;
   font-weight: normal;
   font-size: 50px;
   color: white;
-  background: #00acee;
   border: none;
   transition: 100ms ease;
-}
-
-button:hover{
-  color: grey;
-}
-
-button.none {
-  background: transparent;
-  display: flex;
-  position: fixed;
-  width: auto;
-  height: auto;
-
-  font-size: 50px;
-  z-index: 500;
-}
-
-button.left {
   width:90px;
   height: 90px;
   position: fixed;
@@ -151,6 +131,14 @@ button.left {
   background-color: transparent;
   z-index: 500;
 }
+
+button:hover{
+  color: grey;
+}
+
+
+
+
 
 .independant {
   display: flex;
