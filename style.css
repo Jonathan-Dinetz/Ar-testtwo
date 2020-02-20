@@ -40,7 +40,7 @@ video {
   display: flex;
   position: fixed;
   top: 45px;
-  left: 25px;
+  left:0px;
   height:auto;
   width: auto;
   background: transparent;
@@ -139,7 +139,7 @@ button.none {
   width: auto;
   height: auto;
   top: 55px;
-  left: 25px;
+  left:0px;
   font-size: 50px;
 }
 
@@ -147,7 +147,7 @@ button.none {
   display: flex;
   position: fixed;
   top: 45px;
-  left: 25px;
+  left: 0px;
   height:auto;
   width: auto;
   background: transparent;
@@ -159,20 +159,6 @@ button.none {
   width: auto;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  margin-top: 56px;
-  margin: 50px;
-  justify-content: center;
-  padding-top: 50px;
-}
-
-.wrapperpadding {
-  display: flex;
-  padding: 8px;
-}
 
 .hidden {
   visibility: none;
