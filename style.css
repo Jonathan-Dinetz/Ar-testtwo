@@ -101,12 +101,23 @@ video {
   display: normal;
 }
 
+.header {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  right: 9vw;
+  top: 56px;
+  font-size: 50px;
+  font-family: Helvetica;
+  font-weight: normal;
+  color: white;
+}
 
 
 button {
   border-radius: 25px;
-  width: 90px;
-  height: 45px;
+  width:25px;
+  height: 25px;
   font-family: sans-serif;
   font-weight: normal;
   font-size: 50px;
